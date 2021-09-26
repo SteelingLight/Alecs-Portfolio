@@ -30,15 +30,6 @@ header nav ul li a {
 .contact {
     background-color: pink;
     display: flex;
-}
-
-.contact nav {
-
-}
-
-.contact nav ul {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
 }
+
