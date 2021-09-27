@@ -4,8 +4,12 @@
     padding: 0;
 }
 
+body {
+    background-color: palegoldenrod;
+}
+
 header {
-    background-color: aqua;
+    background-color: rgb(9, 198, 231);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -14,22 +18,57 @@ header {
 
 header h1 {
     margin: 0;
+    ;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 15px;
+    padding: 30px 15px;
 }
 
-.contact {
-    background-color: pink;
+.hero {
+    background-color: purple;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 50px 50px;
 }
+
+.paired .title {
+    border-right: 4px solid darkblue;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 15px 5px 0px 70px;
+    position: static;
+}
+
+.paired .content {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paired {
+    display: flex;
+    flex-wrap:  nowrap;
+    justify-content: flex-start;
+}
+
+.paired nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.paired nav ul li a {
+    padding: 40px;
+}
+
 
