@@ -45,7 +45,7 @@ header nav ul li a {
     font-weight: bolder;
     font-size: 25px;
     padding: 15px 5px 0px 70px;
-    position: static;
+    min-width: 300px;
 }
 
 .paired .content {
@@ -71,4 +71,21 @@ header nav ul li a {
     padding: 40px;
 }
 
+.paired .content .project{
+    border: 2px solid red;
+    flex-wrap: wrap;
+    background-color: sienna;
+}
 
+.paired .content .project img {
+    width: 400px;
+}
+
+.paired .content .mainProject{
+    border: 2px solid red;
+    background-color: seagreen;
+}
+
+.paired .content .mainProject img{
+    width: 800px;
+}
